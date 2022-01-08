@@ -1,6 +1,5 @@
 #Rex Devereux
-#V00800847
-#Final Project
+
 
 #Create GDB and import datasets 
 #data path (alter this path)
@@ -138,7 +137,7 @@ with arcpy.da.SearchCursor(FC,(distField),where_clause=expression) as cursor:
 averagedist = nearestdisthospitals / recordsCounted
 print ("Average distance to hospitals for cities +/- 10% population of Lillooet is " + str(averagedist),"meters ")
 #Average distance to hospitals for cities +/- 10% population of Lillooet is 35863.65793476146 meters 
-print("Task 6 Complete")
+
 
 
 #Edit this to make incomes small, medium, and high
